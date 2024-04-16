@@ -5,14 +5,16 @@
     "icons": {
         "128": "icon128.png"
     },
-    "background": {
-        "service_worker": "service-worker.js",
-        "type": "module"
-    },
     "action": {
         "default_popup": "index.html"
     },
     "permissions": [
+        "activeTab",
+    "tabs" ,
+    "storage",
+    "unlimitedStorage",
+    "browsingData",
+    "notifications",
         "scripting"
     ],
     "host_permissions": [
